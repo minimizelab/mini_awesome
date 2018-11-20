@@ -2,6 +2,9 @@
   "version": 2,
   "name": "awesome",
   "regions": ["bru"],
+  "github": {
+    "enabled": false
+  },
   "builds": [
     { "src": "index.html", "use": "@now/static" }
   ]
